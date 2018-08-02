@@ -2,7 +2,6 @@
 # out the current state.
 
 def display_board(array)
-  cell_row = "   |   |   "
-  dash_row = "-----------"
-  puts cell_row, dash_row, cell_row, dash_row, cell_row
+  puts "#{board[]}|#{board[]}|#{board[]}"
+  puts "-----------"
 end
