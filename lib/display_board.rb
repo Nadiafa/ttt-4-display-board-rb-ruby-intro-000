@@ -9,3 +9,11 @@ def display_board
   puts dash_row
   puts cell_row
 end
+
+
+
+def display_board
+  cell_row = "   |   |   "
+  dash_row = "-----------"
+  puts cell_row, dash_row, cell_row, dash_row, cell_row
+end
